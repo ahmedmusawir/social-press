@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  // background-color: red;
+}
+
+header {
+  margin-bottom: 3rem;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.card {
+  .card-content {
+    .story-title {
+      min-height: 70px;
+    }
+    .story-time {
+      padding: 0.5rem;
+      background-color: lighten($color: #e3e3e3, $amount: 7%);
+      border-radius: 20px;
+    }
+    .story-text {
+      height: 100px;
+    }
+  }
+}
+
+.dash-status {
+  text-transform: capitalize;
+}
+
+#delete-form {
+  display: inline;
+}
+
+.nav-wrapper {
+  .fa-bars {
+    font-size: 25px;
+  }
+}
+
+footer {
+  margin-top: 20px;
+}
